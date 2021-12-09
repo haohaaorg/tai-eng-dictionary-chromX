@@ -91,7 +91,7 @@ function onCloseBubble(e) {
 function renderBubble(mouseX, mouseY, englishText, translation) {
   taiEngicon.style.visibility = "hidden";
   bubbleContent.innerHTML =
-    "<div><span onclick='onCloseBubble()' class='close'>&times;</span><p class='langText'>English:</p><p class='translatedText'> " +
+    "<div><span id='langText' class='closeButton'>&times;</span><p class='langText'>English:</p><p class='translatedText'> " +
     englishText +
     "</p><p class='langText'>Shan:</p><p class='translatedText'>" +
     translation +
@@ -100,4 +100,6 @@ function renderBubble(mouseX, mouseY, englishText, translation) {
   bubbleContent.style.left = mouseX + "px";
   bubble.style.visibility = "visible";
   bubble.style.display = "block";
+
+  document.getElementById("langText").addEventListener("click", onCloseBubble);
 }
