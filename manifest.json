@@ -3,7 +3,7 @@
 
   "name": "TaiEngDic",
   "description": "This extension will provide English-Shan translations",
-  "version": "1.0",
+  "version": "0.5",
 
   "browser_action": {
     "default_icon": "icon.png",
