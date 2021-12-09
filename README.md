@@ -1,6 +1,10 @@
-# Translation Plugin
+## Google-Chrome extensions for Tai - End Dictionnary
 
-Google Chrome extension for [English - Tai dictionary](https://taidictionary.noernova.com) It currently supports English to Shan translations.
+a google chrome extension for [English - Tai dictionary](https://taidictionary.noernova.com) , **It currently supports English to Shan translations.**
+
+![Screen Shot 2564-12-10 at 00 26 copy](https://user-images.githubusercontent.com/9565672/145446520-76033b23-c54b-48d4-919e-977c51d95f52.jpg)
+
+<img width="1112" alt="Screen Shot 2564-12-10 at 00 26 27" src="https://user-images.githubusercontent.com/9565672/145446543-07d1d5af-e905-4d5d-89a2-bcd72a359b27.png">
 
 ### Install
 
