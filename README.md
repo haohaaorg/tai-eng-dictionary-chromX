@@ -14,3 +14,9 @@ a google chrome extension for [English - Tai dictionary](https://taidictionary.n
 4. Click the **Load unpacked extension** button and select your downloaded repository from the file-selection pop-up window.
 
 _Note: After making edits to the code, make sure to reload the extensions page to see the new changes._
+
+
+
+### License 
+
+MIT
