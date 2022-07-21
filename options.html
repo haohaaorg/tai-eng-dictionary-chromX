@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="options-page-title"></title>
+    <link rel="stylesheet" type="text/css" href="options.css" />
+    <script src="./options.js" async defer></script>
+    <script src="./background.js" async defer></script>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Shan Dictionary<br /></h1>
+      <h3>Chrome Extension Options</h3>
+
+      <div class="option_row">
+        <div id="lang-option" class="option_name">Default Language</div>
+        <div class="option_picker">
+          <select
+            id="default-dictionary"
+            class="selection-button selection-button-standard"
+          >
+            <option value="eng2shn">Engish - Shan</option>
+            <option value="shn2eng">Shan - English</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button
+          id="saveBtn"
+          class="save-button selection-button selection-button-standard"
+        >
+          Save
+        </button>
+        <button
+          id="resetBtn"
+          class="reset-button selection-button selection-button-standard"
+        >
+          Reset
+        </button>
+        <span id="save-status" style="display: none"></span>
+      </div>
+    </div>
+
+    <div class="footer">
+      <a id="footer-homepage" href="https://shandictionary.com"></a>
+    </div>
+    <div class="footer">
+      &copy;2022 HaoHaa -
+      <a id="footer-privacy" href="https://shandictionary.com"></a>
+    </div>
+  </body>
+</html>

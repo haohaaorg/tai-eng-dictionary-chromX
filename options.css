@@ -1,0 +1,107 @@
+.selection-button {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  margin-right: 16px;
+  height: 27px;
+  line-height: 27px;
+  min-width: 54px;
+  outline: 0px;
+  padding: 0 8px;
+}
+
+.selection-button {
+  margin-top: -3px;
+  vertical-align: middle;
+}
+.selection-button-standard {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: #444;
+  border: 1px solid #dcdcdc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.selection-button-standard:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
+}
+
+body {
+  background-color: #eee;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+#content {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 40px auto 20px;
+  padding: 32px;
+  width: 650px;
+}
+h1 {
+  color: #333333;
+  font-size: 1.5em;
+  margin: 0.7em 0;
+  text-align: center;
+}
+.option_row {
+  display: table-row;
+}
+.option_picker .selection-radiobutton {
+  display: block;
+  margin-left: -7px;
+  margin-top: 6px;
+}
+.option_name {
+  display: table-cell;
+  font-weight: bold;
+  margin-top: 3px;
+  padding-right: 16px;
+  padding-top: 16px;
+  white-space: nowrap;
+}
+.option_picker {
+  display: table-cell;
+}
+#targetLangSel {
+  box-sizing: content-box;
+}
+
+.buttons {
+  padding: 2em 0 0.7em;
+  flex: 1;
+  justify-content: space-between;
+}
+.buttons .selection-button {
+  display: inline-block;
+}
+.save-button {
+  background-color: #4d90fe;
+  color: white;
+}
+.save-button:hover,
+.reset-button:hover {
+  box-shadow: 1px 2px 2px #888888;
+}
+.save-button:active,
+.reset-button:active {
+  box-shadow: none;
+}
+
+#save-status {
+  background-color: #fff1a8;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 3px;
+}
+.footer {
+  text-align: center;
+  margin-top: 0.4em;
+}
