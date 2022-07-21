@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TaiEngDic</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shan Dictionary</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="./popup.css" />
     <script src="./popup.js" async defer></script>
+    <script src="./background.js" async defer></script>
   </head>
   <body>
-    <select name="dict" id="dict" class="dict-selection">
-      <option value="eng2shn">Engish - Shan</option>
-      <option value="shn2eng">Shan - English</option>
-      <option value="shn2bur">Shan - Burmese</option>
-    </select>
+    <div class="header">
+      <select name="dict" id="dict-selection" class="dict-selection">
+        <option value="eng2shn">Engish - Shan</option>
+        <option value="shn2eng">Shan - English</option>
+      </select>
+      <button id="close-button" type="text" class="close-button">
+        <i class="fa fa-close"></i>
+      </button>
+    </div>
     <div class="search-container">
       <input
         type="text"
+        id="search-box"
         class="search-box"
         placeholder="Search.."
         name="search"
       />
-      <button type="submit" class="search-button">
+      <button id="search-button" type="button" class="search-button">
         <i class="fa fa-search search-icon"></i>
       </button>
     </div>
-    <div class="promo-text"><h3>Shan Dictionary by HaoHaa.com</h3></div>
+    <div id="translation">
+      <div class="promo-text">
+        <h3>Shan Dictionary by HaoHaa.com</h3>
+      </div>
+    </div>
     <div class="footer">
       <a href="https://haohaa.com" target="_blank">&copy;2022 HaoHaa</a> -
-      <a>Extension Options</a> -
+      <a href="/" id="go-to-options">Extension Options</a> -
       <a href="https://shandictionary.com" target="_blank">Shan Dictionary</a>
     </div>
   </body>
